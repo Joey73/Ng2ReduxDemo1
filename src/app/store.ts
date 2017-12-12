@@ -14,7 +14,7 @@ export function rootReducer(state: IAppState, action): IAppState{
         case INCREMENT:
             // Make a copy of the state and return the mutation
             //return Object.assign({}, state, {state.counter + 1});
-            return tassign(state, {counter: state.counter + 1}); // source object and apply the mutations
+            return tassign(state, {counter: state.counter + 1});
     }
     return state;
 }
