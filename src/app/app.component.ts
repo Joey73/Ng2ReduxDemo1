@@ -20,6 +20,6 @@ export class AppComponent {
       The reducer will give back a new state to the store.
       The store will update the state internally.
     */
-    this.ngRedux.dispatch({type: INCREMENT});  // pass an action object with the type    
+    this.ngRedux.dispatch({type: INCREMENT});  // pass an action object with the type
   }
 }
